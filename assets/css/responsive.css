@@ -1,0 +1,202 @@
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  nav {
+    padding: 15px;
+  }
+  nav ul,
+  nav .btns {
+    display: none;
+  }
+  .hamburger-menu{
+    display:block;
+    
+  }
+ .banner{
+    padding: 30px 20px;
+  }
+  .banner .row{
+    flex-direction: column;
+  }
+  .banner h2{
+    font-size: 40px;
+  }
+  .banner .content {
+    width: 100%;
+  }
+  .banner .image {
+    width: 100%;
+  }
+  .banner .image img{
+    width: 100%;
+  }
+  nav .img{
+    width:30%;
+  }
+  .clients .row{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+  }
+  .clients .row img{
+    width:100%;
+  }
+  .container{
+    padding: 0 20px;
+  }
+  .design .row,
+  .customars .row{
+    gap: 30px;
+    align-items: center;
+  }
+  .design-img, .design-content{
+    width: 48%;
+  }
+  .customars-img{
+    width: 38%;
+  }
+  .customars-content{
+    width: 58%;
+  }
+  .marketing .row{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .marketing-img{
+    width: 48%;
+  }
+
+  .design .row{
+    flex-direction: column;
+    text-align: center;
+  }
+  .design-img, .design-content{
+    width: 100%;
+  }
+  .design-img img{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .design-content h2{
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .customars .row{
+    flex-direction: column;
+    text-align: center;
+  }
+  .customars-img, .customars-content{
+    width: 100%;
+  }
+  .customars-img img{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .customars-content p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .customars-content img{
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+  .marketing .row{
+    flex-direction: column;
+    gap: 35px;
+  }
+  .marketing-img{
+    width: 100%;
+    padding-bottom: 70px;
+  }
+  .marketing-img img{
+    height: 250px;
+  }
+  .marketing-content{
+    width: 100%;
+    text-align: center;
+  }
+  .marketing-content h2{
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .card-text{
+    width: 88%;
+  }
+
+  .design-content h2,
+  .marketing-content h2{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .design-img img{
+    width: 100%;
+  }
+  .customars-img img{
+    width: 80%;
+  }
+  .marketing-img img{
+    height: 200px;
+  }
+  .card-text{
+    width: 92%;
+    padding: 15px;
+  }
+  .card-text h3{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .itself .row{
+    gap: 30px;
+    align-items: center;
+  }
+  .itself-content{
+    width: 45%;
+  }
+  .itself-number{
+    width: 50%;
+  }
+
+  .itself .row{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .itself-content{
+    width: 100%;
+  }
+  .itself-content h1{
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .itself-number{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .money{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: left;
+  }
+  .money img{
+    width: 40px;
+    height: 40px;
+  }
+  .money h2{
+    font-size: 22px;
+  }
+
+  .itself-number{
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .money h2{
+    font-size: 18px;
+  }
+}
+
